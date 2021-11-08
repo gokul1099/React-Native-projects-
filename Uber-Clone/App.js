@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, SafeAreaView, StyleSheet, Platform, StatusBar } from "react-native";
 import Categories from "./Components/Categories";
+import RestaurantItem from "./Components/RestaurantItem";
 import Home from "./Screens/Home"
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
         <Home />
       </View>
       <Categories />
+      <RestaurantItem />
     </SafeAreaView>
 
   );
